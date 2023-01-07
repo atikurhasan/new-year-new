@@ -1,0 +1,204 @@
+* {
+    margin: 0 auto;
+    max-width: 1500px;
+
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-bar {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-bar ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.btn-primary {
+    background: orange;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 20px;
+}
+
+.text-box {
+    width: 90%;
+    color: black;
+
+    top: 50%;
+    left: 50%;
+    text-align: right;
+
+}
+
+.text-box h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.text-box p {
+    margin: 10px, 0 40px;
+    font-size: 14px;
+
+}
+
+/* main section */
+.my-section {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.faliur-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #151414;
+}
+
+.faliur-sub-title {
+    font-weight: 700;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faliur-list {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    list-style-type: #check;
+}
+
+
+/* My plans */
+
+.My-Plans {
+    margin-top: 0;
+    background-color: gainsboro;
+
+
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    padding: 130px;
+    gap: 24px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.skill-description {
+    margin-top: 16px;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+/* image section */
+.image-text {
+    font-weight: 700;
+    font-size: 40px;
+    background-image: url('../images/watch.png'), url(../images/gradient3.png);
+    padding: 150px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-blend-mode: overlay;
+}
+
+/* contact */
+
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: lightslategrey;
+    padding: 130px 200px;
+
+}
+
+.contact .full-contact {
+    text-align: left;
+    color: white;
+}
+
+.contact-2 {
+    color: white;
+}
+
+.contact input {
+    margin-bottom: 24px;
+
+
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.paragraph {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form {
+    padding-top: 50px;
+}
